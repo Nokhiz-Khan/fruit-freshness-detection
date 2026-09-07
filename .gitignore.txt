@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle credentials - never commit these
+kaggle.json
+access_token
+*.kaggle/
+
+# Dataset (too large for GitHub, and shouldn't be versioned)
+data/
+dataset/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+venv/
